@@ -15,8 +15,8 @@
     "incremental": true,
     "types": ["node", "react"],
     "baseUrl": ".",
-    "paths": { "@/*": ["src/*"] }
-  },
+    "paths": { "@/*": ["src/*"],"@src/*": ["src/*"]
+  }
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
